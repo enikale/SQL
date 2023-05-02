@@ -19,9 +19,9 @@ INSERT INTO parts VALUES (14, 5, "MOOG", 49, "KIA", "Blue");
 INSERT INTO parts VALUES (15, 5, "Continental", 30, "Mazda", "Grey");
 
 --display the database order by brand.
-SELECT * from carparts ORDER BY brand;
+SELECT * from parts ORDER BY brand;
 
---display the price summary of all carparts.
+--display the price summary of all parts.
 SELECT SUM(price) FROM parts;
 
 --display all parts with a price higher than 32 dollars and sort by brand.
